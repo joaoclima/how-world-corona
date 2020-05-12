@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>How is the world</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-widht, initial-scale=0">
+	<script>
+        var videos = ["https://www.youtube.com/embed/JqUREqYduHw?autoplay=1&mute=1", "https://www.youtube.com/embed/d29O7DT6NHQ?autoplay=1&mute=1", "https://www.youtube.com/embed/17Deeq8N2e4?autoplay=1&mute=1", "https://www.youtube.com/embed/KGuCGd726RA?autoplay=1&mute=1", "https://www.youtube.com/embed/Bi1IxuOnRvA?autoplay=1&mute=1", "https://www.youtube.com/embed/cjCmsRjxVL0?autoplay=1&mute=1", "https://www.youtube.com/embed/1EiC9bvVGnk?autoplay=1&mute=1", "https://www.youtube.com/embed/C78daVqDpB8?autoplay=1&mute=1", "https://www.youtube.com/embed/St7aTfoIdYQ?autoplay=1&mute=1", "https://www.youtube.com/embed/38ozvar-PNw?autoplay=1&mute=1", "https://www.youtube.com/embed/vbA0uy8AsLE?autoplay=1&mute=1", "https://www.youtube.com/embed/d6bWbpQ2Hts?autoplay=1&mute=1", "https://www.youtube.com/embed/if91GyWP3zQ?autoplay=1&mute=1", "https://www.youtube.com/embed/9aCtqij5xGg?autoplay=1&mute=1", "https://www.youtube.com/embed/M7V_GGAoAyg?autoplay=1&mute=1", "https://www.youtube.com/embed/vPxAgn3EtDQ?autoplay=1&mute=1", "https://www.youtube.com/embed/hO9Nkorupv4?autoplay=1&mute=1", "https://www.youtube.com/embed/IELAhyaUKVk?autoplay=1&mute=1", "https://www.youtube.com/embed/m6wk49_EtPc?autoplay=1&mute=1", "https://www.youtube.com/embed/zku4K7-U1P0?autoplay=1&mute=1", "https://www.youtube.com/embed/0YohbfXgA-c?autoplay=1&mute=1", "https://www.youtube.com/embed/4hx8Xqj0cXM?autoplay=1&mute=1", "https://www.youtube.com/embed/PG8kZQ2EkSQ?autoplay=1&mute=1", "https://www.youtube.com/embed/xWAaC3MuaZQ?autoplay=1&mute=1", "https://www.youtube.com/embed/PvoIqPjZFyA?autoplay=1", "https://www.youtube.com/embed/zOfBhttA3Dk?autoplay=1&mute=1", "https://www.youtube.com/embed/bB96qObNTSU?autoplay=1&mute=1", "https://www.youtube.com/embed/As5lFaGLv_E?autoplay=1&mute=1", "https://www.youtube.com/embed/vq3XWOfFUvY?autoplay=1&mute=1", "https://www.youtube.com/embed/L9HyLjRVN8E?autoplay=1&mute=1", "https://www.youtube.com/embed/vJdxRMW6wyM?autoplay=1&mute=1", "https://www.youtube.com/embed/YYvmgi_GQOE?autoplay=1&mute=1", "https://www.youtube.com/embed/7vjpg0eHOYk?autoplay=1&mute=1"];
+
+        	window.onload = function () {
+            var playerDiv = document.getElementById("random_player");
+            var player = document.createElement("IFRAME");
+            var randomVideoUrl = videos[Math.floor(Math.random() * videos.length)];
+            player.setAttribute('width', '960');
+            player.setAttribute('height', '585');
+            player.setAttribute('src', randomVideoUrl);
+            playerDiv.appendChild(player);
+        };
+    </script>
+	<link rel="icon" href="img/corona-avatar3.png">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/how-world.css">
+</head>
+<body>
+    <!-- header element -->
+    <header>
+        <img src="img/corona-avatar3.png">
+        <h1>HOW IS <p>THE WORLD</p></h1>
+    </header>
+
+    <!-- main element -->
+    <main>
+        <h2>
+            <div id="random_player">
+        </h2>
+
+        <audio src="music/corona-music-compress.mp3" controls autoplay="loop">
+    <p>If you are reading this, it is because your browser does not support the audio element.</p>
+        </audio>
+
+        <h3>About:</h3>
+            <p>Cities around the world during quarantine.</p>
+
+    </main>
+
+    <!-- Rodape -->
+    <footer>
+        <p>Este site foi desenvolvido por João Lima &copy; </p>
+    </footer>
+
+
+</body>
+</html>

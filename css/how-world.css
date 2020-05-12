@@ -1,0 +1,79 @@
+body{
+	margin: 0;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+	background-color: azure;
+}
+
+header{
+	background-color: azure;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+h1, h3{
+	font-family: 'Rubik Mono One', sans-serif;
+}
+
+/* header styles */
+
+header h1{
+	color: firebrick;
+	font-size: 50px;
+}
+
+header img{
+	width: 271px;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: azure;
+
+}
+
+main img{
+	max-width: 100%;
+}
+
+
+h3{
+	padding: 0;
+
+}
+
+a{
+	color: firebrick;
+}
+a:hover{
+	background-color: black;
+	color: white;
+}
+
+footer{
+	background-color: firebrick;
+	font-size: 13px;
+	text-align: center;
+	color: white;
+	padding: 5px;
+}
+
+footer p{
+	margin: 0;
+}
+
+footer a{
+	color: white;
+}
+
+p.caption{
+	color: #red;
+	font-style: bold;
+	margin-top: 5px;
+	font-size: 35px;
+	margin-left: 640px;
+}
